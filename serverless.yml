@@ -1,4 +1,4 @@
-service: my-store-app
+service: my-first-app-learn
 
 frameworkVersion: "3"
 
@@ -19,7 +19,7 @@ plugins:
 
 custom:
   client:
-    bucketName: my-store-app
+    bucketName: my-first-app-learn
     distributionFolder: dist
   s3BucketName: ${self:custom.client.bucketName}
 
